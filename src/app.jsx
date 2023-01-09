@@ -4,6 +4,7 @@ import { Buttons } from "./components/Buttons";
 import { GridHomework } from "./components/GridHomework";
 import { Texts } from "./components/Texts";
 import { ButtonHomework } from "./components/ButtonHomework";
+import { Spaces } from "./components/Spaces";
 
 export function App() {
   return (
@@ -11,7 +12,8 @@ export function App() {
       {/* <Buttons /> */}
       {/* <GridHomework /> */}
       {/* <Texts /> */}
-      <ButtonHomework />
+      {/* <ButtonHomework /> */}
+      <Spaces />
     </div>
   );
 }
